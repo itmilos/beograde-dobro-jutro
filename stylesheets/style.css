@@ -1,0 +1,35 @@
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+a {
+	color: white;
+}
+
+#buttons {
+	margin-top: 10px;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	border: solid white 1px;
+	border-radius: 3px;
+	margin: 10px !important;
+}
+
+button:focus {
+	outline: none;
+}
+button:hover {
+	background-color: white;
+	-webkit-animation: color_change_1 3s infinite alternate;
+	-moz-animation: color_change_1 3s infinite alternate;
+	-ms-animation: color_change_1 3s infinite alternate;
+	-o-animation: color_change_1 3s infinite alternate;
+	animation: color_change_1 3s infinite alternate;
+}
