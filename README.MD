@@ -6,3 +6,4 @@
 ### Dodati responsive design 
 ### Napraviti fb stanu i povezati sve
 ### Dodati SEO opcije
+### Dodati meta tagove na svaku song
