@@ -6,30 +6,43 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
-<body >
 
-
-	<div class="container-fluid">
-		<div>
-		<header>
-			<h1>Beograd Dobro Jutro</h1>
-			<p>Jedina stvar koja Vam prija kada se probudite.</p>
-			<p><a href="http://www.twitter.com/itmilos">S ljubavlju od @itmilos</a></p>
-		</header>
-
-		<div class="col-md-12" id="buttons">
-			<button id="btn1">Ko se danas probudio u Beogradu, Može smatrati da je za danas dovoljno učinio.</button>
-
+<body>
+    <div class="se-pre-con"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Beograd Dobro Jutro</a>
+            </div>
         </div>
+    </nav>
+    
+    <header class="header">
+        <div class="text-vertical-center">
+            <button id="btn1" class="btn btn-default">Ko se danas probudio u Beogradu Može smatrati da je za danas dovoljno učinio.</button>
+            <h1>Beograd Dobro Jutro</h1>
+        </div>
+    </header>
+    
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">
+          <a href="http://www.twitter.com/itmilos">S ljubavlju od @itmilos</a>
+        </p>
+      </div>
+    </footer>
 
-		</div>
-
-
-	</div>
 <audio id="idom-1">
 	<source src="sound/Aforizmi%20Du%C5%A1ka%20Radovi%C4%87a%20%20(1.deo).mp3">
 </audio>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="javascripts/script.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script>
+        $(window).load(function() {
+		  $(".se-pre-con").fadeOut(1500);;
+	   });
+    </script>
 </body>
+    
 </html>
